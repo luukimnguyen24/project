@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(127, 186, 111);
+}
+
+.container {
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h2{
+  text-align: left;
+  color:rgb(122, 35, 199);
+}
+header {
+  background-color: lightblue;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 150px;
+  width: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.cart-icon {
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+}
+
+.headphones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 40px;
+}
+
+.headphone {
+  background-color: rgb(148, 192, 27);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headphone img {
+  height: 200px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.headphone h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.headphone p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: black;
+}
+
+.headphone button {
+  padding: 10px 20px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.form {
+  margin-top: 40px;
+}
+
+.form h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: gray;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.headphone button:hover{
+  background:red;
+}
+
+.contact-info {
+  margin-top: 40px;
+}
+
+.contact-info h3 {
+  margin: 0;
+  font-size: 24px;
+  color: black;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: black;
+}
+.footer {
+  background: rgb(152, 152, 223);
+  margin-top: 500px;
+  color: black;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.footer .footer-info p {
+  font-size: 12px;
+  margin: 5px 0;
+}
+.footer .footer-info h3:hover {
+  color: #42f8f8;
+}
+.footer .footer-info p:hover {
+  color: #42f8f8;
+}
+.footer .container img {
+  width: 10%;
+  height: 10%;
+}
